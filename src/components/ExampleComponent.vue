@@ -20,7 +20,7 @@ interface Props {
   title: string;
   todos?: Todo[];
   meta: Meta;
-  active: boolean;
+  active: boolean; 
 };
 
 const props = withDefaults(defineProps<Props>(), {
