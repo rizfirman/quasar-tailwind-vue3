@@ -198,6 +198,10 @@ module.exports = configure(function (/* ctx */) {
 
       // extendBexScriptsConf (esbuildConf) {}
       // extendBexManifestJson (json) {}
+    },
+    build: {
+      // Set this to '/' if deployed on root, or '/your-subdirectory/' if deployed on a subpath
+      publicPath: '/'
     }
   }
 });
